@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.name         = "BigDream"
   s.version      = "0.0.2"
-  s.summary      = "A short description of BigDream."
+  s.summary      = "简介 BigDream."
 
  
 
