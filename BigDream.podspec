@@ -31,11 +31,11 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/frankKiwi/BigDream.git", :tag => "#{s.version}" }
 
+  s.requires_arc = true
 
 
-   s.source_files = '**/*.{h,m}' 
-s.frameworks  = "UIKit", "Foundation"
-s.dependency "JPush", "~> 3.0.9"
-s.requires_arc = true
+  s.source_files = '**/*.{h,m}' 
+  s.frameworks  = "UIKit", "Foundation"
+  s.dependency "JPush"
 
 end
