@@ -36,6 +36,7 @@ Pod::Spec.new do |s|
 
   s.source_files = '**/*.{h,m}' 
   s.frameworks  = "UIKit", "Foundation"
-  s.dependency "JPush"
+  s.ios.vendored_libraries = '**/*.a'
+#   s.dependency "JPush"
 
 end
