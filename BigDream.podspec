@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
 
    s.source_files = '**/*.{h,m}' 
 s.frameworks  = "UIKit", "Foundation"
-s.dependency "JPush", "~> 3.0.6"
+s.dependency "JPush", "~> 3.0.9"
 s.requires_arc = true
 
 end
