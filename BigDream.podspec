@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
  
 
   s.name         = "BigDream"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "简介 BigDream."
 
  
@@ -35,8 +35,7 @@ Pod::Spec.new do |s|
 
 
   s.source_files = '**/*.{h,m}' 
-  s.frameworks  = "UIKit", "Foundation"
-  s.ios.vendored_libraries = '**/*.a'
-#   s.dependency "JPush"
+  s.frameworks  = "UIKit", "Foundation","UserNotifications"
+  s.dependency "JPush"
 
 end
