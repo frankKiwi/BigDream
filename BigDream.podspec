@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
  
 
   s.name         = "BigDream"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "简介 BigDream."
 
  
@@ -37,6 +37,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'BigDreamSdk.framework'
 
   s.frameworks  = "UIKit", "Foundation"
-  s.dependency "JPush"
+#   s.dependency "JPush"
 
 end
