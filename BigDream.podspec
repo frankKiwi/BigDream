@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
  
 
   s.name         = "BigDream"
-  s.version      = "0.0.6"
+  s.version      = "1.0.0"
   s.summary      = "简介 BigDream."
 
  
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.author             = { "fanrenFRank" => "1778907544@qq.com" }
  
 
-  s.platform     = :ios, "8.2"
+  s.platform     = :ios, "8.0"
 
  
 
@@ -34,8 +34,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
 
-  s.source_files = '**/*.{h,m}' 
-  s.frameworks  = "UIKit", "Foundation","UserNotifications"
+  s.vendored_frameworks = 'BigDreamSdk.framework'
+
+  s.frameworks  = "UIKit", "Foundation"
   s.dependency "JPush"
 
 end
