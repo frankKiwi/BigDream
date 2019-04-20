@@ -1,0 +1,6 @@
+framework module BigDreamSdk {
+  umbrella header "BigDreamSdk.h"
+
+  export *
+  module * { export * }
+}
