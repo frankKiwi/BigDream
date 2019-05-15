@@ -1,2 +1,2 @@
 # BigDream
-pod 'BigDream', '~> 1.0.1'
+pod 'BigDream', '~> 1.0.2'
