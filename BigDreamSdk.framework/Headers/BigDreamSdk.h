@@ -15,6 +15,7 @@ FOUNDATION_EXPORT double BigDreamSdkVersionNumber;
 FOUNDATION_EXPORT const unsigned char BigDreamSdkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <BigDreamSdk/PublicHeader.h>
+#import <BigDreamSdk/DreamViewer.h>
 #import <BigDreamSdk/Dreamweaver.h>
 
 
