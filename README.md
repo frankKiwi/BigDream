@@ -1,2 +1,2 @@
 # BigDream
-大大的梦想
+pod 'BigDream', '~> 1.0.1'
